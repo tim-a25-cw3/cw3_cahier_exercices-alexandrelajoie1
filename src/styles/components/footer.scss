@@ -1,0 +1,35 @@
+.footer {
+    padding: 40px 0;
+
+    h1 {
+        color: var(--color-white);
+        span {
+            color: rgba($color: #fff, $alpha: 0.55);
+            font-weight: 100;
+        }
+    }
+
+    p {
+        color: rgba($color: #fff, $alpha: 0.55);
+        font-weight: 100;
+        span {
+            color: rgba($color: #fff, $alpha: 1);
+            font-weight: 700;
+        }
+    }
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+        .icon--lg {
+            color: rgba($color: #fff, $alpha: 0.55);
+        }
+    }
+}
