@@ -12,11 +12,14 @@ class Main {
   }
 
   initPagination() {
-    const swiper = new Swiper('.js-swiper', {
-      pagination: {
-        el: '.swiper-paginaion',
-      },
-    });
+    const target = document.querySelector('.js-swiper-page');
+    if (target) {
+      const swiper = new Swiper(target, {
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    }
   }
 }
 new Main();
