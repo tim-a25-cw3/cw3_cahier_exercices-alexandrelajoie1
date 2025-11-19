@@ -16,6 +16,8 @@ class Main {
     if (target) {
       const swiper = new Swiper(target, {
         pagination: {
+          slidesPerView : 1,
+          spaceBetween : 30,
           el: '.swiper-pagination',
         },
       });
